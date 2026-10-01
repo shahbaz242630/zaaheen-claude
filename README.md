@@ -20,7 +20,7 @@ The plugin works in Claude Code and in Cowork in the Claude desktop app. For Cla
 In Claude Code:
 
 ```
-/plugin marketplace add shahbaz242630/zaaheen-claude
+/plugin marketplace add https://github.com/shahbaz242630/zaaheen-claude.git
 /plugin install zaaheen@zaaheen
 ```
 
