@@ -1,0 +1,12 @@
+{
+  "name": "zaaheen",
+  "description": "Zaaheen, one memory for all your AI apps, kept safe on your computer.",
+  "owner": { "name": "Zaaheen", "email": "customerservice@zaaheen.com" },
+  "plugins": [
+    {
+      "name": "zaaheen",
+      "source": "./",
+      "description": "One memory for all your AI apps, kept safe on your computer."
+    }
+  ]
+}

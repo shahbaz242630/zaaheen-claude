@@ -1,0 +1,23 @@
+{
+  "manifest_version": "0.3",
+  "name": "zaaheen",
+  "display_name": "Zaaheen",
+  "version": "1.0.0",
+  "description": "One memory for all your AI apps, kept safe on your computer. Uses the Zaaheen app installed on this computer.",
+  "author": { "name": "Zaaheen", "email": "customerservice@zaaheen.com", "url": "https://zaaheen.com" },
+  "homepage": "https://zaaheen.com",
+  "icon": "icon.png",
+  "server": {
+    "type": "binary",
+    "entry_point": "README.txt",
+    "mcp_config": {
+      "command": "zaaheen",
+      "args": ["mcp", "serve"],
+      "platform_overrides": {
+        "win32": { "command": "zaaheen", "args": ["mcp", "serve"] },
+        "darwin": { "command": "/Applications/Zaaheen.app/Contents/MacOS/zaaheen", "args": ["mcp", "serve"] }
+      }
+    }
+  },
+  "compatibility": { "platforms": ["win32", "darwin"] }
+}

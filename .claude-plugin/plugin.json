@@ -1,0 +1,16 @@
+{
+  "name": "zaaheen",
+  "displayName": "Zaaheen",
+  "version": "1.0.0",
+  "description": "One memory for all your AI apps, kept safe on your computer. Connects Claude to the Zaaheen app installed on this computer.",
+  "author": {
+    "name": "Zaaheen",
+    "email": "customerservice@zaaheen.com",
+    "url": "https://zaaheen.com"
+  },
+  "homepage": "https://zaaheen.com/docs/connect-claude-code/",
+  "repository": "https://github.com/shahbaz242630/zaaheen-claude",
+  "license": "MIT",
+  "keywords": ["memory", "privacy", "local-first", "encryption", "mcp"],
+  "mcpServers": "./zaaheen.mcpb"
+}
