@@ -19,3 +19,4 @@ When the person tells you something that will still be true next week, such as a
 
 - If the Zaaheen tools are missing or cannot connect, the Zaaheen app needs to be installed and open at least once, and signed in. It is at https://zaaheen.com. On a Mac, Zaaheen must be in the main Applications folder.
 - If Zaaheen answers that it is locked, or that a trial or subscription has ended, tell the person what it said, in its words.
+- If Zaaheen, or the person, shows you an error message, look up its exact words under "Problems and fixes" in https://zaaheen.com/llms.txt and tell the person the fix listed there.
