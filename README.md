@@ -11,7 +11,7 @@ The plugin adds two things to Claude:
 
 ## What it runs and what data it sends
 
-- **The plugin itself sends nothing.** It contains no program of its own. It starts the Zaaheen program installed on your computer (`zaaheen mcp serve` on Windows, `/Applications/Zaaheen.app/Contents/MacOS/zaaheen mcp serve` on a Mac), and Claude talks to it on your computer only.
+- **The plugin itself sends nothing.** It contains no program of its own. It starts the Zaaheen program installed on your computer (`zaaheen mcp serve` on Windows, `/Applications/Zaaheen.app/Contents/MacOS/zaaheen mcp serve` on a Mac), and Claude talks to it on your computer only. The whole connection is the `mcpServers` entry in `.claude-plugin/plugin.json`: it runs `zaaheen mcp serve`, and its `PATH` setting adds the Mac app's folder in front of your own search path so the same entry finds the program on both systems (`:` separates folders on a Mac, `;` on Windows; your own path is included twice so that no folder in it is lost on either system).
 - **Your memories never leave your computer.** They are stored encrypted on your computer. They are never sent to us or to anyone else, and we cannot read them.
 - **What the Zaaheen app connects to, and why:** Zaaheen's own sign-in and account service at zaaheen.com, to sign you in and check your trial or subscription (no memories are sent); our payment provider's checkout and billing pages, only when you pay or manage your subscription; and a public model library, to download the models Zaaheen runs on your computer (once each; they then work offline).
 
