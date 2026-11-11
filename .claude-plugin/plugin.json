@@ -1,8 +1,8 @@
 {
   "name": "zaaheen",
   "displayName": "Zaaheen",
-  "version": "1.0.3",
-  "description": "One memory for all your AI apps, kept safe on your computer. Connects Claude to the Zaaheen app installed on this computer.",
+  "version": "1.0.4",
+  "description": "One memory for all your AI apps, kept safe on your computer. Tells Claude how to use the Zaaheen memory app installed on this computer.",
   "author": {
     "name": "Zaaheen",
     "email": "customerservice@zaaheen.com",
@@ -13,14 +13,5 @@
   "supportUrl": "https://zaaheen.com/docs/contact/",
   "documentationUrl": "https://zaaheen.com/docs/connect-claude-code/",
   "license": "MIT",
-  "keywords": ["memory", "privacy", "local-first", "encryption", "mcp"],
-  "mcpServers": {
-    "zaaheen": {
-      "command": "zaaheen",
-      "args": ["mcp", "serve"],
-      "env": {
-        "PATH": "/Applications/Zaaheen.app/Contents/MacOS:;${PATH}:${PATH}"
-      }
-    }
-  }
+  "keywords": ["memory", "privacy", "local-first", "encryption", "mcp"]
 }

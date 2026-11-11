@@ -17,6 +17,6 @@ When the person tells you something that will still be true next week, such as a
 
 ## When Zaaheen does not answer
 
-- If the Zaaheen tools are missing or cannot connect, the Zaaheen app needs to be installed and open at least once, and signed in. It is at https://zaaheen.com. On a Mac, Zaaheen must be in the main Applications folder.
+- If the Zaaheen tools are missing or cannot connect, the Zaaheen app needs to be installed, opened at least once, and signed in (it is at https://zaaheen.com; on a Mac, Zaaheen must be in the main Applications folder). Then it needs connecting to this app: in Zaaheen, open Agents, choose Connect an app, pick this app and follow the step it shows. The guide is https://zaaheen.com/docs/connect-claude-code/.
 - If Zaaheen answers that it is locked, or that a trial or subscription has ended, tell the person what it said, in its words.
 - If Zaaheen, or the person, shows you an error message, look up its exact words under "Problems and fixes" in https://zaaheen.com/llms.txt and tell the person the fix listed there.
